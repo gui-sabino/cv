@@ -29,23 +29,11 @@
         #nome {
             font-family: "Raleway", sans-serif
         }
-        /* Dark Mode */
-        .dark-mode {
-            background-color: #333;
-            color: #fff;
-        }
-
-        .dark-mode button {
-            background-color: #555;
-        }
     </style>
 
 </head>
 
 <body class="w3-light-grey" cz-shortcut-listen="true">
-
-    <!-- Dark Mode Toggle Button -->
-    <button id="darkModeToggle" class="w3-button w3-black w3-margin-top w3-margin-right w3-right">Dark Mode</button>
 
     <!-- Page Container -->
     <div class="w3-content w3-margin-top" style="max-width:1400px;">
@@ -275,16 +263,6 @@
         <p style="color: rgb(105, 145, 225);">Powered by <a href="https://www.w3schools.com/w3css/default.asp"
                 target="_blank">w3.css</a></p>
     </footer>
-
-    <script>
-        // Dark Mode Toggle Function
-        const darkModeToggle = document.getElementById('darkModeToggle');
-        const body = document.body;
-
-        darkModeToggle.addEventListener('click', () => {
-            body.classList.toggle('dark-mode');
-        });
-    </script>
 
 </body>
 
